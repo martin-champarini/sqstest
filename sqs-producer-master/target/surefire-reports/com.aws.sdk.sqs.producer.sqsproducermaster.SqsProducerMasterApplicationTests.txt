@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.aws.sdk.sqs.producer.sqsproducermaster.SqsProducerMasterApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 14.581 s <<< FAILURE! - in com.aws.sdk.sqs.producer.sqsproducermaster.SqsProducerMasterApplicationTests
+contextLoads(com.aws.sdk.sqs.producer.sqsproducermaster.SqsProducerMasterApplicationTests)  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Failed to execute CommandLineRunner
+Caused by: com.amazonaws.SdkClientException: Unable to find a region via the region provider chain. Must provide an explicit region in the builder or setup environment to supply a region.
+
